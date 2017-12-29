@@ -1,0 +1,75 @@
+:root {
+	--main-bg-color : #e5a24b;
+	--main-bar-color : #2b2722;
+
+	--main-navMenu-text-color : black;
+
+	--main-navMenu-bottom-width : 0.5px;
+	--main-navMenu-bottom-style : solid;
+	--main-navMenu-bottom-Line-color : #726d6b;
+
+	--main-navMenu-border-left-width : 5.5px;
+	--main-navMenu-border-left-style : solid;
+	
+}
+*{
+	margin:0;
+}
+a { text-decoration: none; color: var(--main-navMenu-text-color); }
+ul {padding:0;}
+li {list-style-type: none;}
+/* layout, bgColor */
+body{background-color: var(--main-bg-color);}
+@keyframes hoveringNavMenuColor {
+	from {
+
+	}
+	to {
+		background-color: #191817;
+		border-left-color: #e2964a;
+		color:#fc830a;
+	}
+}
+.wrapper { width: 100%; height: 1000px; padding-top: 50px; background-color: var(--main-bg-color);}
+.wrapper .wrapper2 { width:75%; height:100%; background-color: var(--main-bg-color); margin:auto; }
+.wrapper .mainNavBar { width: 19%; height: 1000px; background-color: var(--main-bg-color); float:left;}
+.wrapper .mainNavBar .logoAndAuthor { width: 100%; height:30%; background-color: var(--main-bg-color); }
+.wrapper .mainNavBar .logo { width: 100%; height:30%; background-color: var(--main-bg-color); }
+.wrapper .mainNavBar .author { width: 100%; height: 70%; background-color: var(--main-bg-color); }
+.navMenusBar {display: inline-block; width:100%; background-color: var(--main-bg-color);}
+.wrapper .navMenus { width:90%; margin:auto; overflow: hidden; background-color: var(--main-bg-color);}
+.wrapper .navMenus .menuLv1 { width: 100%; height: 55px; background-color: var(--main-bg-color);
+							border-bottom-width: var(--main-navMenu-bottom-width);
+							border-bottom-style: var(--main-navMenu-bottom-style);
+							border-bottom-color: var(--main-navMenu-bottom-Line-color);
+							padding-left: 12px;}
+.wrapper .navMenus .menuLv1:hover { border-left-width : var(--main-navMenu-border-left-width);
+									border-left-style : var(--main-navMenu-border-left-style);
+									animation-name: hoveringNavMenuColor;
+									animation-duration: 1s;
+									animation-fill-mode:forwards;
+									cursor:pointer; }
+.wrapper .navMenus .menuLv1 .navMenuBlock {width:0; height:100%; vertical-align: middle; color:var(--main-navMenu-text-color);}
+.wrapper .mainContents { width: 66%; height: 1000px; background-color: var(--main-bg-color); float: left;}
+.wrapper .mainContents .introduction {width:100%; height:100%; background-color: #efba73; float: left;}
+.wrapper .mainContents .introduction .introduceOne {color: #343a40; position:relative ; right: -380px; top:-10px;}
+.introduceTwo {color: #bd5d38; position:relative ;  right: -380px; top:-10px;}
+
+.wrapper .mainContents .experience .experienceTitle {color: #bd5d38; position:relative ;  right: -380px; bottom: -100px; }
+.experienceListOne {position: relative; left: 0px; bottom: -100px;}
+.experienceExplain {position: relative; left: 0px; bottom: -100px;}
+.wrapper .subMenuBar { width:15%; height:1000px; background-color: #efba73;/*var(--main-bg-color);*/ display: inline-box; float: left;}
+.wrapper .subMenuBar .recentContents { width:100%; height: 60%; background-color: var(--main-bar-color); /*var(--main-bg-color);*/ }
+.wrapper .subMenuBar .recentContents .recentTitle {width:100%; height:10%; background-color: #633e16; line-height: 50px; text-align: center; color:var(--main-navMenu-text-color);}
+.wrapper .subMenuBar .recentContents .recentArticlesss {width:100%; height:90%; background-color: var(--main-bar-color);}
+.wrapper .subMenuBar .recentContents .recentArticlesss .recentArticle {width:100%; height:20%;
+																		margin-top : 10px;
+																		margin-bottom : 10px;
+																		background-color: #efba73; /*var(--main-bg-color);*/
+																		white-space: normal;
+																		text-align: left;
+																		overflow: hidden;
+																		text-overflow: ellipsis;}
+.wrapper .subMenuBar .about { width:100%; height: 30%; background-color: aqua; /*var(--main-bg-color);*/ }
+.wrapper .subMenuBar .snsIcons { width : 100%; height: 10%; background-color: yellow; /*var(--main-bg-color);*/ }
+

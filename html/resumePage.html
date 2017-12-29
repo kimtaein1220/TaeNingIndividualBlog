@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>resumePage</title>
+	<link rel="stylesheet" type="text/css" href="../css/resume.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="wrapper2">
+			<div class="mainNavBar">
+				<div class="logoAndAuthor">
+					<div class="logo">logo</div>
+					<div class="author">logoImgAndIntroduce</div>
+				</div>
+				<div class="navMenusBar">
+				   <ul class="navMenus">
+					 <li><a href="#">menu1</a></li>
+					 <li><a href="#">menu2</a>
+                         <ul>
+                         	<li><a href="#">menu2-1</a></li>
+                         	<li><a href="#">menu2-2</a></li>
+                         	<li><a href="#">menu203</a></li>
+                         </ul>
+					 </li>
+					 <li><a href="#">menu3</a>
+                         <ul>
+                         	<li><a href="#">menu3-1</a></li>
+                         	<li><a href="#">menu3-2</a></li>
+                         	<li><a hred="#">menu3-3</a></li>
+                         </ul>
+					 </li>
+				   </ul>
+			    </div>
+			</div>
+			<div class="mainContents">
+				<div class="introduction">
+					<h1 class="introduce"><span class="introduceOne">Tae-In</span>
+						<span class="introduceTwo">Kim</span>
+					</h1>
+					<h4>안녕하세요 저는 김태인 입니다.
+                         나이는 26살이고 웹 개발자 과정을 3개월 동안 공부해서 이수했습니다.
+                         흥미를 가지던 공부였기에 굉장히 재미있게 공부하고 있습니다.
+
+                    </h4>
+                    <div class="experience">
+                    	<h1 class="experienceTitle">Experience
+                           <h3 class="experienceList"><span class="experienceListOne">학생회(문체부장)</span></h3>
+                           <h4 class="experienceExplain">영어교육과에서 2016년도에 문체부장으로서 1년 동안 오락, 행사 등을 기획하고 진행을 했습니다.</h4>
+                    	</h1>
+                    </div>
+				</div>
+					
+                
+			</div>
+			<div class="subMenuBar">
+				<div class="recentContents">
+					<div class="recentTitle"><img class="navMenuBlock"/>최근 글 목록</div>
+					<div class="recentArticlesss">
+						<div class="recentArticle"><a href="#">[category] 글 제목이 겁내 길 경우 이런식으로 나타 낼 수 도 있습니다 하이 헬로 안녕하세요안녕하세요안녕하세요안녕하세요안녕하세요안녕하세요</a></div>
+						<div class="recentArticle"><a href="#">[category] 글제목</a></div>
+						<div class="recentArticle"><a href="#">[category] 글제목</a></div>
+						<div class="recentArticle"><a href="#">[category] 글제목</a></div>
+						<div class="recentArticle"><a href="#">[category] 글제목</a></div>
+					</div>
+				</div>
+				<div class="about">
+
+				</div>
+				<div class="snsIcons">
+
+				</div>
+				
+			</div>
+		</div>
+
+	</div>
+
+	<script>
+		$(document).ready(function(){
+			// 마우스 클릭 : console.log 출력
+			$(".menuLv1").click(function(){
+				var id = $(this).attr('id');
+				alert("id : " + id);
+			});
+		});
+		
+		
+
+	</script>
+</body>
+</html>
