@@ -48,8 +48,18 @@ body{background-color: var(--main-bg-color);}
 									animation-duration: 1s;
 									animation-fill-mode:forwards;
 									cursor:pointer; }
+.moveResume { position:relative ; top:-50px;}
 .wrapper .navMenus .menuLv1 .navMenuBlock {width:0; height:100%; vertical-align: middle; color:var(--main-navMenu-text-color);}
 .wrapper .mainContents { width: 66%; height: 1000px; text-align:left; background-color: var(--main-bg-color); float: left;}
+.picTableOne {width:300px; height:300px; float:left; background-color: #815dad; margin:0 auto;}
+.picTableTwo {width:300px; height:300px; float:left; background-color: #5f6f84; margin:0 auto;}
+.picTableThree {width:300px; height:300px; float:left; background-color: #ad5d81; margin:0 auto;}
+.picTableFour {width:300px; height:300px; float:left; background-color: #8c2538; margin:0 auto;}
+.picTableFive {width:300px; height:300px; float:left; background-color: #47248c; margin:0 auto;}
+.picTableSix {width:300px; height:300px; float:left; background-color: #24308c; margin:0 auto;}
+.picTableSeven {width:300px; height:300px; float:left; background-color: #c16e3f; margin:0 auto; }
+.picTableEight {width:300px; height:300px; float:left; background-color: #c18a3f; margin:0 auto;}
+.picTableNine {width:300px; height:300px; float:left; background-color: #c1bc3f; margin:0 auto;}
 .wrapper .subMenuBar { width:15%; height:1000px; background-color: #efba73;/*var(--main-bg-color);*/ display: inline-box; float: left;}
 .wrapper .subMenuBar .recentContents { width:100%; height: 60%; background-color: var(--main-bar-color); /*var(--main-bg-color);*/ }
 .wrapper .subMenuBar .recentContents .recentTitle {width:100%; height:10%; background-color: #633e16; line-height: 50px; text-align: center; color:var(--main-navMenu-text-color);}
@@ -64,3 +74,4 @@ body{background-color: var(--main-bg-color);}
 																		text-overflow: ellipsis;}
 .wrapper .subMenuBar .about { width:100%; height: 30%; background-color: green; /*var(--main-bg-color);*/ }
 .wrapper .subMenuBar .snsIcons { width : 100%; height: 10%; background-color: pink; /*var(--main-bg-color);*/ }
+
