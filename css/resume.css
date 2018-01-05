@@ -71,5 +71,6 @@ body{background-color: var(--main-bg-color);}
 																		overflow: hidden;
 																		text-overflow: ellipsis;}
 .wrapper .subMenuBar .about { width:100%; height: 30%; background-color: aqua; /*var(--main-bg-color);*/ }
-.wrapper .subMenuBar .snsIcons { width : 100%; height: 10%; background-color: yellow; /*var(--main-bg-color);*/ }
+.snsIcon { width : 100%; height: 10%; background-color: yellow; font-size: 50px; }
+.snsIcon .fa .fa-google:before {font-size: 50px;}
 

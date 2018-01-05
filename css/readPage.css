@@ -1,0 +1,107 @@
+:root {
+	--main-bg-color :   background: #a1ffce; /* fallback for old browsers */
+                        background: -webkit-linear-gradient(to right, #a1ffce, #faffd1); /* Chrome 10-25, Safari 5.1-6 */
+                        background: linear-gradient(to right, #a1ffce, #faffd1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	
+	--main-bar-color : #05384b;
+	
+	--main-navMenu-text-color : black;
+
+	--main-navMenu-bottom-width : 0.5px;
+	--main-navMenu-bottom-style : solid;
+	--main-navMenu-bottom-Line-color : #726d6b;
+
+	--main-navMenu-border-left-width : 5.5px;
+	--main-navMenu-border-left-style : solid;
+
+}
+*{
+	margin:0;
+}
+a { text-decoration: none; color: var(--main-navMenu-text-color); }
+ul {padding:0;}
+li {list-style-type: none;}
+/* layout, bgColor */
+body{background-color: var(--main-bg-color);}
+@keyframes hoveringNavMenuColor {
+	from {
+
+	}
+	to {
+		background-color: #191817;
+		border-left-color: #e2964a;
+		color:#fc830a;
+	}
+}
+.wrapper { width: 100%; height: 1000px; padding-top: 50px; 
+	       background-color: var(--main-bg-color);}
+.wrapper .wrapper2 { width:75%; height:100%; background-color: var(--main-bg-color); margin:auto; }
+.wrapper .mainNavBar { width: 19%; height: 1000px; background-color: var(--main-bg-color); float:left;}
+.logoImage {width:230px; height:90px; position:relative ; top:-35px; }
+.wrapper .mainNavBar .logoAndAuthor { width: 100%; height:30%; background-color: var(--main-bg-color); }
+.wrapper .mainNavBar .logo { width: 100%; height:30%; background-color: var(--main-bg-color); }
+.wrapper .mainNavBar .author { width: 100%; height: 70%; background-color: var(--main-bg-color); }
+.navMenusBar { display: inline-block; width:100%; background-color: var(--main-bg-color);}
+.wrapper .navMenus { width:90%; margin:auto; overflow: hidden; background-color: var(--main-bg-color);}
+.wrapper .navMenus .menuLv1 { width: 100%; height: 55px; background-color: var(--main-bg-color);
+							border-bottom-width: var(--main-navMenu-bottom-width);
+							border-bottom-style: var(--main-navMenu-bottom-style);
+							border-bottom-color: var(--main-navMenu-bottom-Line-color);
+							padding-left: 12px;}
+.wrapper .navMenus .menuLv1:hover { border-left-width : var(--main-navMenu-border-left-width);
+									border-left-style : var(--main-navMenu-border-left-style);
+									animation-name: hoveringNavMenuColor;
+									animation-duration: 1s;
+									animation-fill-mode:forwards;
+									cursor:pointer; }
+.moveResume { position:relative ; top:-30px; text-align: center; font-size: 60px;}
+.wrapper .navMenus .menuLv1 .navMenuBlock {width:0; height:100%; vertical-align: middle; color:var(--main-navMenu-text-color);}
+.wrapper .mainContents { width: 66%; height: 1000px; text-align:left; background-color: var(--main-bg-color); float: left; }
+.picTableOne {width:300px; height:300px; float:left; background-color: var(--main-bg-color); margin:0 auto; display: inline-box; border-width: 1px; border-height: 1px; border-color: var(--main-bg-color); border-style: double; font-size: 20px}
+.picTableTwo {width:300px; height:300px; float:left; background-color: var(--main-bg-color); margin:0 auto; display: inline-box; border-width: 1px; border-height: 1px; border-color: var(--main-bg-color);  border-style: double;font-size: 20px}
+.picTableThree {width:300px; height:300px; float:left; background-color: var(--main-bg-color); margin:0 auto; display: inline-box; border-width: 1px; border-height: 1px; border-color: var(--main-bg-color);  border-style: double; font-size: 20px}
+.picTableFour {width:300px; height:300px; float:left; background-color: var(--main-bg-color); margin:0 auto; display: inline-box; border-width: 1px; border-height: 1px; border-color: var(--main-bg-color);  border-style: double; font-size: 20px}
+.picTableFive {width:300px; height:300px; float:left; background-color: var(--main-bg-color); margin:0 auto; display: inline-box; border-width: 1px; border-height: 1px; border-color: var(--main-bg-color);  border-style: double; font-size: 20px}
+.picTableSix {width:300px; height:300px; float:left; background-color: var(--main-bg-color); margin:0 auto; display: inline-box; border-width: 1px; border-height: 1px; border-color: var(--main-bg-color);  border-style: double; font-size: 20px}
+.picTableSeven {width:300px; height:300px; float:left; background-color: var(--main-bg-color); margin:0 auto; display: inline-box; border-width: 1px; border-height: 1px; border-color: var(--main-bg-color); border-style: double; font-size: 20px}
+.picTableEight {width:300px; height:300px; float:left; background-color: var(--main-bg-color); margin:0 auto; display: inline-box; border-width: 1px; border-height: 1px; border-color: var(--main-bg-color);  border-style: double; font-size: 20px}
+.picTableNine {width:300px; height:300px; float:left; background-color: var(--main-bg-color); margin:0 auto; display: inline-box; border-width: 1px; border-height: 1px; border-color: var(--main-bg-color);  border-style: double; font-size: 20px}
+.ImageContentsOne {width: 300px; height:275px; }
+.ImageContentsTwo {width: 300px; height:275px;}
+.ImageContentsThree {width: 300px; height:275px;}
+.ImageContentsFour {width: 300px; height:275px;}
+.ImageContentsFive {width: 300px; height:275px;}
+.ImageContentsSix {width: 300px; height:275px;}
+.ImageContentsSeven {width: 300px; height:275px;}
+.ImageContentsEight {width: 300px; height:275px;}
+.ImageContentsNine {width: 300px; height:275px;}
+.wrapper .subMenuBar { width:15%; height:1000px; background-color: white;/*var(--main-bg-color);*/ display: inline-box; float: left;}
+.wrapper .subMenuBar .recentContents { width:100%; height: 40%; background-color: var(--main-bar-color); /*var(--main-bg-color);*/ }
+.wrapper .subMenuBar .recentContents .recentTitle {width:100%; height:10%; background-color: #0a90a9; line-height: 50px; text-align: center; color:var(--main-navMenu-text-color);}
+.wrapper .subMenuBar .recentContents .recentArticlesss {width:100%; height:100%; background-color: var(--main-bar-color);}
+.wrapper .subMenuBar .recentContents .recentArticlesss .recentArticle {width:100%; height:15%;
+																		margin-top : 5px;
+																		margin-bottom : 5px;
+																		background-color: white; /*var(--main-bg-color);*/
+																		white-space: normal;
+																		text-align: left;
+																		overflow: hidden;
+																		text-overflow: ellipsis;
+																		text-align: center;}
+
+
+.navMenuBar { display: inline-block; width:100%; background-color: var(--main-bg-color); font-color:black;}
+.nav-menu {margin:0; padding:0;}
+.nav-menu li {list-style: none; position: relative;}
+/* li 태그에 z-index값을 줘서 Lv2 메뉴가 Lv1 메뉴 위에 뜰 때 클릭이 겹치지 않도록 한다. (기본z-index값 : 0)*/
+.nav-menu li:hover { background-color : #eeebd8; z-index:3; }
+.nav-menu li:hover>a {color: black;}
+.nav-menu a { color:black; display:block; padding: 10px 20px; text-decoration: none;}
+.nav-menu ul { background-color: #eeebd8; display: none; padding:0; position: absolute; left:100%; top:0; width:100%;}
+/* Left navBar Lv2 */
+.nav-menu ul li { float:none; }
+.nav-menu ul li:hover { float:none; }
+.nav-menu li li:hover a { color:black; }
+.menuRead {text-align: left; position: relative; bottom: -100px;}
+.middleMenu {width:100%; height:100%; background-color: var(--main-bg-color); border-width: 1px; border-height: 1px; border-color: var(--main-bg-color);  border-style: double; position: relative; left:-30px;}
+
