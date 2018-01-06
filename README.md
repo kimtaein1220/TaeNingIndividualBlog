@@ -1,6 +1,6 @@
 TAENING MINI INDIVIDUAL HOMEPAGE
 ============================================
-![profile](C:\dev_sources\KimTaeInBlog\img)
+![profile](.img.profile.jpg)
 ## PURPOSE
 ### This project do training proess about Wep developer and solve the problem yourself rather than relying on others.  
 ## Theme
