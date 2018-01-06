@@ -1,6 +1,6 @@
 TAENING MINI INDIVIDUAL HOMEPAGE
 ============================================
-![profile](./img/student.jpg)
+![profile](./img/student.png)
 -------------------------------
 ## PURPOSE
 ### This project do training proess about Wep developer and solve the problem yourself rather than relying on others.  
